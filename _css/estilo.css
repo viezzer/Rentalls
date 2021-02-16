@@ -1,0 +1,239 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body {
+	background-image: linear-gradient(to right, #92BEFD , #4E90FF);
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+input {
+	border-radius: 15px;
+}
+button {
+	border-radius: 15px;
+}
+
+/*CABEÇALHO*/
+
+header#cabecalho {
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+	opacity: 98%;
+	margin: -10px -10px auto -10px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+	height: auto;
+}
+img#logo-cabecalho {
+	height: 50px;
+	margin-left:15px;
+	margin-top: 25px;
+	transition: 1s;
+	/*box-shadow: 1px 1px 3px black;*/
+}
+img#logo-cabecalho:hover {
+	height: 51px;
+	/*box-shadow: 1px 1px 3px black;*/
+}
+
+/*MENU DE NAVEGAÇÃO DO CABEÇALHO*/
+
+ul#menu-cabecalho {
+	height: auto;
+	margin: -65px 5px 0px 300px;
+	text-align: right;
+	/*box-shadow: 1px 1px 3px black;*/
+}
+
+/*ITENS DO MENU*/
+
+ul#menu-cabecalho li {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: inline-block;
+	list-style: none;
+	transition: 1s;
+	margin: 33px 25px 33px 25px;
+	/*box-shadow: 1px 1px 2px black;*/
+}
+ul#menu-cabecalho li:hover {
+	color: rgba(0,0,0,0.3);
+	font-size: 16px;
+	padding: 5px;
+}
+
+/*ANCORA*/
+
+ul#menu-cabecalho a {
+	text-decoration: none;
+}
+
+
+/*CONTEUDO*/
+
+div#conteudo {
+	background-color: none;
+	height: auto;
+	margin: 1px -10px auto -10px;
+}
+div#conteudo img#banner{
+	width: 100%;
+	height: 100%;
+	height: 595px;
+	opacity: 70%;
+}
+
+/*RODAPE*/
+
+footer#rodape {
+	height: 500px;
+	margin: auto -10px 30px -10px;
+	background-color: white;
+}
+
+/*RODAPE legenda*/
+
+div#rodape-titulo {
+	padding: 40px;
+	text-align: center;
+	font-size: 8pt;
+}
+
+/*DIVISAO ESQUERDA*/
+
+div#info {
+	font-size: 10pt;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 140px;
+	display: inline-block;
+	width: 310px;
+	transition: 1s;
+	/*box-shadow: 1px 1px 3px black;*/
+
+}
+div#info:hover {
+	font-size: 12.5pt;	
+}
+div#info img#img-tel {
+	height: 15px;
+	display: inline;
+	text-align: top;
+	margin-left: 40px;
+	margin-right: 5px;
+}
+img#img-email{
+	height: 15px;
+	margin-right: 5px;
+}
+div#info p {
+	display: inline;
+	text-align: top;
+}
+div#info ul {
+	list-style: none;
+	margin-left: 110px;
+	margin-top: -18px;
+}
+
+
+/*FORMULARIO*/
+
+form#form-contato {
+	margin-left: 510px;
+	display: inline-block;
+	width: 700px;
+	/*box-shadow: 1px 1px 3px black;*/
+}
+div#div1 {
+	display: inline-block;
+	width: 49%;
+	/*box-shadow: 1px 1px 3px black;*/
+}
+div#div1 input {
+	width: 85%;
+	margin: 10px;
+	padding: 13px;
+}
+div#div2 {
+	display: inline-block;
+	width: 50%;
+	/*box-shadow: 1px 1px 3px black;*/
+}
+div#div2 input{
+	display: inline-block;
+	width: 50%;
+	margin: 10px;
+	padding: 13px;
+}
+div#div2 input#cMsg{
+	width: 85%;
+	height: 81px;
+}
+button#btn_submit { 
+    background-color: #4E90FF; 
+    width: 30%;
+    color: white; 
+    padding: 13px; 
+    margin: 10px ; 
+    border: none; 
+    cursor: pointer; 
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+} 
+
+/*------------------------------------------------------*/
+
+/*FORMATAÇÃO DO CABEÇALHO*/
+/*header#cabecalho {
+	margin: -10px -10px auto -10px;
+	background-color: rgba(255,255,255, 0.8);
+	padding: 5px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+	}
+img#logo {
+	height: 60px;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+}
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+div#conteudo {
+	background-color: #FFF5EE;
+}*/
+
+/*FORMATAÇÃO DO MENU DO CABEÇALHO*/
+/*nav#menu {
+	display: block;
+}
+nav#menu a {
+	color:black;
+	text-decoration: none;
+	transition: 0.3s;
+}
+nav#menu h1 {
+	display: none;
+}
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -10px;
+	right: 100px;
+}
+nav#menu li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	background-color: none;
+	padding: 2px;
+	margin: 20px;
+}
+nav#menu a:hover {
+	color: #4E65FF;
+}
+	*/

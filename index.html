@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<title>Rentalls</title>
+		<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+		<link rel="apple-touch-icon" sizes="180x180" href="_imagens/icones/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="_imagens/icones/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="_imagens/icones/favicon-16x16.png">
+		<script src="_javascript/oop.js"></script>
+		<script src="_javascript/commandos.js"></script>
+	</head>
+	<body>
+		<div>
+			<header id="cabecalho">
+				<a href="index.html"><img id="logo-cabecalho" src="_imagens/logo-preta.png">
+				<ul id="menu-cabecalho">
+					<a href="index.html"><li>Home</li></a>
+					<a href="sobre-nos.html"><li><b>Sobre nós</b></li></a>
+					<a href="imoveis.html"><li><b>Imoveis</b></li></a>
+					<a href="contato.html"><li><b>Contato</b></li></a>
+					<a href="login.html"><li><b>Login</b></li></a>
+				</ul>
+			</header>
+		</div>
+		<div id="conteudo">
+			<picture>
+				<img id="banner" src="_imagens/banner.jpeg">
+			</picture>
+		</div>
+		<footer id="rodape">
+            <div id="rodape-titulo"><h2>Fale conosco!</h2></div>
+            <div id="info">
+                <img src="_imagens/icone-telefone.png" id="img-tel">
+                <b><p>Telefone:</p></b>
+                <ul id="telefones">
+                    <li>(54) 99176 4014</li>
+                    <li>(54) 99925 6121</li>
+                </ul><br>
+                <img src="_imagens/icone-mensagem.png" id="img-email">
+                <b><p>E-mail: </b>silviaviezzer35@gmail.com</p>
+            </div>
+            <form id="form-contato">
+                <div id="div1">
+                    <input type="text" name="tNome" placeholder="Nome:" required><br>
+                    <input type="email" name="tEmail" placeholder="E-mail:" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br>
+                    <input type="tel" name="tTelefone" placeholder="Telefone: 54 0000 0000" maxlength="11" required>
+                </div>
+                <div id="div2">
+                    <input type="text" name="tMensagem" placeholder="Mensagem:" id="cMsg" required>
+                    <button form="form-contato" id="btn_submit" type="submit">Enviar</button>
+                </div>
+            </form>
+        </footer>
+	</body>
+</html>

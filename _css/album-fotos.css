@@ -1,0 +1,62 @@
+div#album-div {
+	background-color: white;
+}
+ul#album-fotos {
+	width: 700px
+	margin: auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+
+}
+ul#album-fotos li {
+	float: left;
+	width: 162px;
+	height: 162px;
+	margin: 25px;
+	border: 5px solid white;
+	background-color: white;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	transition: 0.3s;
+}
+ul#album-fotos li:hover {
+	border: 5px solid grey;
+}
+
+/*FOTOS*/	
+ul#album-fotos li#foto01 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto02 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto03 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto04 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto05 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto06 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto07 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto08 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto09 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto10 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto11 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
+ul#album-fotos li#foto12 {
+	background: url('../_imagens/imovel-teste.jpg') no-repeat;
+}
